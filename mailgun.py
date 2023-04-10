@@ -2,7 +2,7 @@ import json
 import requests
 from prettytable import PrettyTable
 
-webhookUrl= "https://ekbana.letsperk.com/hooks/i7f33xci6bbg886p4yse4oi4xy"
+webhookUrl= "https://example.com/hooks/i7f33xci6bbg886p4yse4oi4xy"
 
 def get_domains():
     res= requests.get(
